@@ -104,13 +104,14 @@ h3{
 
 }
 .pic-card{
-    width:100px;
-    height:100px;
+    width:150px;
+    height:150px;
     box-shadow:5px 5px 20px rgb(35, 35, 202);
 }
 .pic-container{
     display:flex;
     justify-content: space-around;
+    margin-top:50px;
 }
 .project-card{
     width:200px;
@@ -119,6 +120,18 @@ h3{
 }
 .pic-card:hover{
     cursor: pointer;
+    height:150px;
+    width:150px;
+    margin:20px;
+    z-index:10;
+}
+.pic-container img:hover{
+    cursor:pointer;
+    height:200px;
+    width:200px;
+    margin:20px;
+    z-index:10;
+    transition:width 2s,height 2s;
 }
 .project-container{
     display:flex;
