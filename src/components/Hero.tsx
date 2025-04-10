@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
         }}
       />
       <h1 style={{ fontSize: '2rem', fontWeight: 'bold' }}>Charanya A</h1>
-      <p style={{ color: '#666' }}>Full Stack Developer</p>
+      <p style={{ color: '#d1d5db' }}>Full Stack Developer</p>
       <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', fontSize: '1.5rem', marginTop: '1rem' }}>
         <a href="https://github.com/Charanya-A" target="_blank"><FaGithub /></a>
         <a href="https://www.linkedin.com/in/charanya-amarnath-26169a246" target="_blank"><FaLinkedin /></a>
