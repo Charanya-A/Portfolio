@@ -1,0 +1,11 @@
+.email-inline-icon {
+    display: flex;
+    align-items: center;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .email-inline-icon:hover {
+    color: #ccc;
+  }
+  
