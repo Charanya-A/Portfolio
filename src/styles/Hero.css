@@ -1,0 +1,37 @@
+.hero-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .hero-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .hero-name {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .hero-role {
+    color: #d1d5db;
+    padding-left:15px;
+  }
+  
+  .hero-icons {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+    padding-left:35px;
+  }
+  
