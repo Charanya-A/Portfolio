@@ -1,0 +1,44 @@
+.education-section {
+
+    color: white;
+  }
+  
+  .education-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  
+  .education-card {
+    background-color: #1c1c1e;
+    padding: 16px 24px;
+    border: 1px solid #3a3a3c;
+    border-radius: 12px;
+    display: inline-block;
+  }
+  
+  .education-degree {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .education-badge {
+    background-color: #fbf9f94d;
+    color: white;
+    font-size: 0.85rem;
+    padding: 4px 12px;
+    margin-left: 8px;
+    border-radius: 9999px;
+  }
+  
+  .education-college {
+    color: #d1d5db;
+    margin-bottom: 4px;
+  }
+  
+  .education-cgpa {
+    color: #d1d5db;
+  }
+  
+  
