@@ -1,5 +1,6 @@
 import React from 'react';
 import { MdEmail } from 'react-icons/md';
+import { FaLinkedin} from 'react-icons/fa';
 
 const Contact: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const Contact: React.FC = () => {
             className="email-inline-icon"
             aria-label="Email Charanya"
           >
+            <a href="https://www.linkedin.com/in/charanya-amarnath-26169a246" target="_blank" rel="noopener noreferrer"><FaLinkedin className="footer-icon"/></a>
             <MdEmail />
           </a>
         </p>
