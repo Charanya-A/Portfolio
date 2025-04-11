@@ -28,6 +28,10 @@
     padding-left:15px;
   }
   
+  .hero-role:hover {
+    opacity: 0.7; 
+  }
+
   .hero-icons {
     display: flex;
     gap: 1rem;
