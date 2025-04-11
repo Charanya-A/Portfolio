@@ -17,8 +17,8 @@ const MainContent = () => (
     <Hero />
     <About />
     <WorkExp />
-    <Education />
     <Projects />
+    <Education />
     <Contact />
     <Footer />
   </>
