@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
 
   return (
     <section className="hero-container">
-      <img src="pic.jpg" alt="Profile" className="hero-image" />
+      <img src="/pic.jpg" alt="Profile" className="hero-image" />
 
       <div className="hero-content">
         <h1 className="hero-name">Charanya A</h1>
