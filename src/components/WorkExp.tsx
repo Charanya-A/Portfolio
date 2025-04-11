@@ -3,8 +3,8 @@ import "../styles/WorkExp.css";
 
 const WorkExp: React.FC = () => {
   return (
-    <section className="work-section">
-      <h1 className="work-title">Work Experience</h1>
+    <section className="work-section" id="work-experience">
+      <h2 className="work-title">Work Experience</h2>
 
       <div className="work-card">
         <p className="work-role">
