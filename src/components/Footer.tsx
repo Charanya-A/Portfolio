@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaLinkedin, FaInstagram, FaGithub} from 'react-icons/fa';
 import '../styles/Footer.css';
+import { Link } from 'react-router-dom';
 
 
 const Footer: React.FC = () => {
@@ -11,9 +12,9 @@ const Footer: React.FC = () => {
       </div>
 
       <div className="footer-center">
-        <a href="/attributions" className="footer-link">Attributions</a>
-        <a href="/shout-outs" className="footer-link">Shout Outs</a>
-        <a href="/affiliates" className="footer-link">Affiliates</a>
+        <Link to="/attributions" className="footer-link">Attributions</Link>
+        <Link to="/shout-outs" className="footer-link">Shout Outs</Link>
+        <Link to="/affiliates" className="footer-link">Affiliates</Link>
       </div>
 
       <div className="footer-right">
