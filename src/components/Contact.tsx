@@ -4,7 +4,7 @@ import { MdEmail } from 'react-icons/md';
 const Contact: React.FC = () => {
   return (
     <section className="section">
-      <h1 className="section-title">Contact</h1>
+      <h1 className="section-title">Connect</h1>
       <div className="section-content contact-text">
         <p>
           Feel free to reach out to me via&nbsp;
