@@ -4,7 +4,7 @@ import "../styles/Education.css";
 const Education: React.FC = () => {
   return (
     <section className="education-section">
-      <h1 className="education-title">Education</h1>
+      <h2 className="education-title">Education</h2>
       <div className="education-card">
         <p className="education-degree">
           Bachelor of Engineering
