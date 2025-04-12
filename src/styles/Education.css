@@ -1,44 +1,64 @@
 .education-section {
+  color: white;
+  padding-bottom: 2rem;
+}
 
-    color: white;
-  }
-  
-  .education-title {
-    font-size: 1.6rem;
-    font-weight: 600;
-    margin-bottom: 16px;
-  }
-  
-  .education-card {
-    background-color: #1c1c1e;
-    padding: 16px 24px;
-    border: 1px solid #3a3a3c;
-    border-radius: 12px;
-    display: inline-block;
-  }
-  
-  .education-degree {
-    font-size: 1.3rem;
-    margin-bottom: 10px;
-    color: white;
-  }
-  
-  .education-badge {
-    background-color: #fbf9f94d;
-    color: white;
-    font-size: 0.85rem;
-    padding: 4px 12px;
-    margin-left: 8px;
-    border-radius: 9999px;
-  }
-  
-  .education-college {
-    color: #d1d5db;
-    margin-bottom: 4px;
-  }
-  
-  .education-cgpa {
-    color: #d1d5db;
-  }
-  
-  
+.education-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  background: linear-gradient(90deg, #7f5af0, #2cb67d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.education-card {
+  background-color: #1c1c1e;
+  padding: 16px 24px;
+  border: 1px solid #3a3a3c;
+  border-radius: 12px;
+  display: inline-block;
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 4px 12px rgba(127, 90, 240, 0.262);
+  transition: transform 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-4px);
+}
+
+.education-role {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.education-badge {
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  margin-left: 8px;
+}
+
+.education-badge.stream {
+  background-color: #7f5af0;
+  color: white;
+}
+
+.education-badge.duration {
+  background-color: #2cb67d;
+  color: black;
+}
+
+.education-college {
+  color: #d1d5db;
+  margin-bottom: 4px;
+}
+
+.education-cgpa {
+  color: #d1d5db;
+}
