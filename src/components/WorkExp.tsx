@@ -7,8 +7,8 @@ const WorkExp: React.FC = () => {
       <h2 className="work-title">Work Experience</h2>
 
       <div className="work-card">
-        <p className="work-role">
-          FullStack AI Developer Intern
+        <div className="work-header">
+          <span className="work-role">FullStack AI Developer Intern</span>
           <a
             href="https://stacklane.co/"
             target="_blank"
@@ -18,7 +18,7 @@ const WorkExp: React.FC = () => {
             StackLane
           </a>
           <span className="work-badge duration">March 2025 – Present</span>
-        </p>
+        </div>
         <p className="work-desc">
           Building modern web apps using Next.js, React.js, and Node.js. Hands-on with AI-driven development using Mistral models and Weaviate vector database.
         </p>
