@@ -44,7 +44,7 @@
 .connect-text {
   font-size: 1.1rem;
   color: #d1d5db;
-  text-align: center; /* Centered text for better alignment */
+  text-align: center; 
 }
 
 .email-inline-icon {
@@ -62,7 +62,7 @@
 .footer-icon {
   font-size: 1.3rem;
   margin-right: 8px;
-  color: #2dd4bf; /* Set the same color as the previous icon links */
+  color: #2dd4bf; 
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
