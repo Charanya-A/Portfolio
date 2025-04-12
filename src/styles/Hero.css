@@ -1,55 +1,92 @@
 .hero-container {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    flex-wrap: wrap;
-  }
-  
-  .hero-image {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-  
-  .hero-content {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-  
-  .hero-name {
-    font-size: 2rem;
-    font-weight: bold;
-  }
-  
-  .hero-role {
-    color: #d1d5db;
-    padding-left:15px;
-  }
-  
-  .hero-role:hover {
-    opacity: 0.7; 
-  }
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  animation: fadeIn 1.2s ease-in-out;
+  padding: 2rem 0;
+  padding-bottom: 1rem; 
+  border-bottom: 1px solid #2a2a2a;
+}
 
-  .hero-icons {
-    display: flex;
-    gap: 1rem;
-    font-size: 1.5rem;
-    padding-left:20px;
-  }
+.hero-image {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 20px rgba(127, 90, 240, 0.722); 
+  transition: transform 0.3s ease;
+}
 
-  .hero-icons a {
-    color: white;
-    font-size: 1.6rem;
-    margin-right: 16px;
-    transition: opacity 0.2s ease, transform 0.2s ease;
+.hero-image:hover {
+  transform: scale(1.05);
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-name {
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #7f5af0, #2cb67d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-role-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-role-btn {
+  background: transparent;
+  border: 1px solid #2dd4bf;
+  color: #2dd4bf;
+  padding: 0.4rem 1rem;
+  font-size: 1rem;
+  border-radius: 9999px;
+  box-shadow: 0 0 8px rgba(45, 212, 191, 0.4);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: fit-content;
+}
+
+.hero-role-btn:hover {
+  background: rgba(45, 212, 191, 0.1);
+  box-shadow: 0 0 12px rgba(45, 212, 191, 0.6);
+  transform: scale(1.05);
+}
+
+.hero-icons {
+  display: flex;
+  gap: 1.2rem;
+  font-size: 1.6rem;
+  justify-content: center; 
+  margin-top: 0.5rem;
+}
+
+.hero-icons a {
+  color: #2dd4bf;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.hero-icons a:hover {
+  transform: scale(1.2);
+  opacity: 0.7;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
   }
-  
-  .hero-icons a:hover {
-    cursor: pointer;
-    opacity: 0.6;
-    transform: scale(1.05);
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  
+}
