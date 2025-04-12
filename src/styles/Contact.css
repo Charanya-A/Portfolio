@@ -1,11 +1,75 @@
+.connect-section {
+  color: white;
+  padding: 2rem;
+  margin-top: -0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 800px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.connect-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  background: linear-gradient(90deg, #7f5af0, #2cb67d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.connect-card {
+  background-color: #1c1c1e;
+  padding: 24px;
+  border: 1px solid #3a3a3c;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 0 4px 12px rgba(127, 90, 240, 0.262);
+  transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 600px; /* Consistent card width */
+  margin-top: 1rem;
+  box-sizing: border-box;
+}
+
+.connect-card:hover {
+  transform: translateY(-4px);
+}
+
+.connect-text {
+  font-size: 1.1rem;
+  color: #d1d5db;
+  text-align: center; /* Centered text for better alignment */
+}
+
 .email-inline-icon {
-    display: flex;
-    align-items: center;
-    color: white;
-    transition: color 0.3s ease;
-  }
-  
-  .email-inline-icon:hover {
-    color: #ccc;
-  }
-  
+  display: inline-flex;
+  align-items: center;
+  color: white;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.email-inline-icon:hover {
+  color: #ccc;
+}
+
+.footer-icon {
+  font-size: 1.3rem;
+  margin-right: 8px;
+  color: #2dd4bf; /* Set the same color as the previous icon links */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.email-inline-icon:hover .footer-icon {
+  opacity: 0.7;
+}
+
+.connect-card:hover .footer-icon {
+  transform: scale(1.2);
+}
