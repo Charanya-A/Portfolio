@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="footer">
       <div className="footer-left">
-        <p>Copyright © 2025 – All rights reserved by Charanya A</p>
+        <p>2025 © Charanya A</p>
       </div>
 
       <div className="footer-center">
