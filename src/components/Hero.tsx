@@ -15,10 +15,14 @@ const Hero: React.FC = () => {
       <img src="/pic.jpg" alt="Profile" className="hero-image" />
 
       <div className="hero-content">
-        <h1 className="hero-name">Charanya A</h1>
-        <p className="hero-role" onClick={scrollToWorkExperience} style={{ cursor: 'pointer', color: '#0073e6', textDecoration: 'underline' }}>
-          Full Stack Developer
-        </p>
+        <h2 className="hero-name">Charanya A</h2>
+
+        <div className="hero-role-wrapper">
+          <button className="hero-role-btn" onClick={scrollToWorkExperience}>
+            Full Stack Developer
+          </button>
+        </div>
+
         <div className="hero-icons">
           <a href="https://github.com/Charanya-A" target="_blank" rel="noopener noreferrer">
             <FaGithub />
