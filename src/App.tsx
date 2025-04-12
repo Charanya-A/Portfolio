@@ -20,22 +20,23 @@ const MainContent = () => (
     <Projects />
     <Education />
     <Contact />
-    <Footer />
   </>
 );
 
 const App: React.FC = () => {
   return (
-    <div className="app">
-      <div className="content-wrapper">
-        <Routes>
-          <Route path="/" element={<MainContent />} />
-          <Route path="/attributions" element={<Attributions />} />
-          <Route path="/shout-outs" element={<ShoutOut />} />
-          <Route path="/affiliates" element={<Affiliates />} />
-
-        </Routes>
+    <div className="page-wrapper">
+      <div className="app">
+        <div className="content-wrapper">
+          <Routes>
+            <Route path="/" element={<MainContent />} />
+            <Route path="/attributions" element={<Attributions />} />
+            <Route path="/shout-outs" element={<ShoutOut />} />
+            <Route path="/affiliates" element={<Affiliates />} />
+          </Routes>
+        </div>
       </div>
+      <Footer />
     </div>
   );
 };
