@@ -15,11 +15,15 @@ const ShoutOut: React.FC = () => {
   return (
     <div
       style={{
+        height: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
         padding: '2rem',
         backgroundColor: '#121212',
-        minHeight: '100vh',
         color: 'white',
-        textAlign: 'left',
+        overflow: 'hidden'
       }}
     >
       <p style={{ color: '#d1d5db', fontSize: '0.9rem' }}>
@@ -31,7 +35,7 @@ const ShoutOut: React.FC = () => {
 
       <h2 style={{ marginTop: '1rem' }}>Shout Outs</h2>
 
-      <ul style={{ marginTop: '1.5rem', lineHeight: '2' }}>
+      <ul style={{ marginTop: '1.5rem', lineHeight: '2', textAlign: 'left' }}>
         {shoutOuts.map((item, index) => (
           <li key={index} style={{ display: 'flex', alignItems: 'center', marginBottom: '0.5rem' }}>
             <FaChevronRight style={{ marginRight: '0.5rem', color: 'white' }} />

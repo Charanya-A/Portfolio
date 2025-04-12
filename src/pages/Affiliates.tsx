@@ -5,11 +5,15 @@ const Affiliates: React.FC = () => {
   return (
     <div
       style={{
+        height: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
         padding: '2rem',
         backgroundColor: '#121212',
-        minHeight: '100vh',
         color: 'white',
-        textAlign: 'left',
+        overflow: 'hidden'
       }}
     >
       <p style={{ color: '#d1d5db', fontSize: '0.9rem' }}>

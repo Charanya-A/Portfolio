@@ -6,7 +6,17 @@ const iconStyle = { marginRight: '0.5rem', verticalAlign: 'middle', color: 'whit
 
 const Attributions: React.FC = () => {
   return (
-    <div style={{ padding: '2rem', backgroundColor: '#121212', minHeight: '100vh', color: 'white' }}>
+    <div style={{
+      height: '100vh',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
+      padding: '2rem',
+      backgroundColor: '#121212',
+      color: 'white',
+      overflow: 'hidden'
+    }}>
       <p style={{ color: '#d1d5db', fontSize: '0.9rem' }}>
         <Link to="/" style={{ color: '#3b82f6', textDecoration: 'underline' }}>Home</Link> {'>'} Attributions
       </p>
