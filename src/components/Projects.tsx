@@ -4,7 +4,7 @@ import '../styles/Projects.css';
 const Projects: React.FC = () => {
   return (
     <section className="projects-section">
-      <h1 className="projects-title">Projects</h1>
+      <h2 className="projects-title">Projects</h2>
       <div className="projects-grid">
         <a
           href="https://github.com/Charanya-A/Portfolio-new-"
