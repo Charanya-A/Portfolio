@@ -1,41 +1,44 @@
-# Portfolio Project
+#  Charanya's Developer Portfolio
 
-This is a personal portfolio project that showcases my skills, projects, and contact information.
+Welcome to my personal portfolio website! This project showcases who I am, what I’ve done, and where I want to go as a developer. It’s built using **Vite + React + TypeScript** and deployed on **Vercel**.
 
-## Features
+🔗 **Live Site**: [Visit Portfolio](https://portfolio-charanyas-projects-44696895.vercel.app/)
 
-- Responsive design that adapts to different screen sizes.
-- Navigation bar with links to different sections of the portfolio.
-- About section detailing my background and skills.
-- Projects section showcasing my work with descriptions and links.
-- Contact section with a form for inquiries.
 
-## Technologies Used
+##  Tech Stack
 
-- React
-- CSS
-- HTML
+- **Frontend**: React, TypeScript, Vite
+- **Styling**: Inline CSS & Custom CSS (no framework used)
+- **Deployment**: Vercel
 
-## Setup Instructions
 
-1. Clone the repository:
-   ```
-   git clone <repository-url>
-   ```
+##  Features
 
-2. Navigate to the project directory:
-   ```
-   cd portfolio-project
-   ```
+-  Fast performance with Vite
+-  Clean and minimalist design
+-  Fully responsive on all devices
+-  Auto-updating date and time on the Contact page
+-  Footer with social icons
+-  Attribution and ShoutOut pages styled for single-scroll visibility
 
-3. Install the dependencies:
-   ```
-   npm install
-   ```
+  ##  Setup Instructions
 
-4. Start the development server:
-   ```
-   npm start
-   ```
+1. **Clone the repository**
 
-5. Open your browser and go to `http://localhost:3000` to view the portfolio.
+```bash
+git clone https://github.com/Charanya-A/Portfolio.git
+cd Portfolio
+
+Install dependencies
+```bash
+npm install
+
+Start the development server
+```bash
+npm run dev
+
+Build for production
+```bash
+npm run build
+
+
