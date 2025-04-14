@@ -23,20 +23,24 @@ Welcome to my personal portfolio website! This project showcases who I am, what 
 
   ##  Setup Instructions
 
-1. **Clone the repository**
+1. Clone the repository:
 
 ```sh
 git clone https://github.com/Charanya-A/Portfolio.git
 cd Portfolio
 ```
-2. **Install dependencies**
-   ```sh
+2. Install dependencies:
+
+```sh
 npm install
 ```
-3. **Start the development server**
- ```sh
-   npm run dev
+3. Start the development server:
+
+```sh
+npm run dev
 ```
-4. **Build for production**
- ```sh
+4. Build for production:
+
+```sh
 npm run build
+```
