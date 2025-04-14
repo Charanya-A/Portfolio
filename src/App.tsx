@@ -7,6 +7,7 @@ import Education from './components/Education';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import WorkExp from './components/WorkExp';
+import Publications from './components/Publications';
 import Footer from './components/Footer';
 import Attributions from './pages/Attributions'; 
 import ShoutOut from './pages/ShoutOut';
@@ -17,6 +18,7 @@ const MainContent = () => (
     <Hero />
     <About />
     <WorkExp />
+    <Publications />
     <Projects />
     <Education />
     <Contact />
