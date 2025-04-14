@@ -18,7 +18,7 @@ const Education: React.FC = () => {
       <div className="education-card">
         <p className="education-role">
           Pre-University Course (PUC)
-          
+          <span className="education-badge stream">PCMC</span>
           <span className="education-badge duration">2019–2021</span>
         </p>
         <p className="education-college">Vidyanidhi PU College</p>
